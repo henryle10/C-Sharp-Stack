@@ -1,0 +1,11 @@
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Boxing\bin\Debug\netcoreapp2.2\Boxing.deps.json
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Boxing\bin\Debug\netcoreapp2.2\Boxing.runtimeconfig.json
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Boxing\bin\Debug\netcoreapp2.2\Boxing.runtimeconfig.dev.json
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Boxing\bin\Debug\netcoreapp2.2\Boxing.dll
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Boxing\bin\Debug\netcoreapp2.2\Boxing.pdb
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Boxing\obj\Debug\netcoreapp2.2\Boxing.csprojAssemblyReference.cache
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Boxing\obj\Debug\netcoreapp2.2\Boxing.csproj.CoreCompileInputs.cache
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Boxing\obj\Debug\netcoreapp2.2\Boxing.AssemblyInfoInputs.cache
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Boxing\obj\Debug\netcoreapp2.2\Boxing.AssemblyInfo.cs
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Boxing\obj\Debug\netcoreapp2.2\Boxing.dll
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Boxing\obj\Debug\netcoreapp2.2\Boxing.pdb

@@ -1,0 +1,11 @@
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\CollectionPractice\bin\Debug\netcoreapp2.2\CollectionPractice.deps.json
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\CollectionPractice\bin\Debug\netcoreapp2.2\CollectionPractice.runtimeconfig.json
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\CollectionPractice\bin\Debug\netcoreapp2.2\CollectionPractice.runtimeconfig.dev.json
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\CollectionPractice\bin\Debug\netcoreapp2.2\CollectionPractice.dll
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\CollectionPractice\bin\Debug\netcoreapp2.2\CollectionPractice.pdb
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\CollectionPractice\obj\Debug\netcoreapp2.2\CollectionPractice.csprojAssemblyReference.cache
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\CollectionPractice\obj\Debug\netcoreapp2.2\CollectionPractice.csproj.CoreCompileInputs.cache
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\CollectionPractice\obj\Debug\netcoreapp2.2\CollectionPractice.AssemblyInfoInputs.cache
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\CollectionPractice\obj\Debug\netcoreapp2.2\CollectionPractice.AssemblyInfo.cs
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\CollectionPractice\obj\Debug\netcoreapp2.2\CollectionPractice.dll
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\CollectionPractice\obj\Debug\netcoreapp2.2\CollectionPractice.pdb

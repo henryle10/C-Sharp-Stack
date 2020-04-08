@@ -1,0 +1,11 @@
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Puzzle\bin\Debug\netcoreapp2.2\Puzzle.deps.json
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Puzzle\bin\Debug\netcoreapp2.2\Puzzle.runtimeconfig.json
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Puzzle\bin\Debug\netcoreapp2.2\Puzzle.runtimeconfig.dev.json
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Puzzle\bin\Debug\netcoreapp2.2\Puzzle.dll
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Puzzle\bin\Debug\netcoreapp2.2\Puzzle.pdb
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Puzzle\obj\Debug\netcoreapp2.2\Puzzle.csprojAssemblyReference.cache
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Puzzle\obj\Debug\netcoreapp2.2\Puzzle.csproj.CoreCompileInputs.cache
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Puzzle\obj\Debug\netcoreapp2.2\Puzzle.AssemblyInfoInputs.cache
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Puzzle\obj\Debug\netcoreapp2.2\Puzzle.AssemblyInfo.cs
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Puzzle\obj\Debug\netcoreapp2.2\Puzzle.dll
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\Puzzle\obj\Debug\netcoreapp2.2\Puzzle.pdb

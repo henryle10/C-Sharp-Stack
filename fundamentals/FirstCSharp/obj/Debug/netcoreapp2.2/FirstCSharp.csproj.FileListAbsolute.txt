@@ -1,0 +1,11 @@
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\FirstCSharp\bin\Debug\netcoreapp2.2\FirstCSharp.deps.json
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\FirstCSharp\bin\Debug\netcoreapp2.2\FirstCSharp.runtimeconfig.json
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\FirstCSharp\bin\Debug\netcoreapp2.2\FirstCSharp.runtimeconfig.dev.json
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\FirstCSharp\bin\Debug\netcoreapp2.2\FirstCSharp.dll
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\FirstCSharp\bin\Debug\netcoreapp2.2\FirstCSharp.pdb
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\FirstCSharp\obj\Debug\netcoreapp2.2\FirstCSharp.csprojAssemblyReference.cache
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\FirstCSharp\obj\Debug\netcoreapp2.2\FirstCSharp.csproj.CoreCompileInputs.cache
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\FirstCSharp\obj\Debug\netcoreapp2.2\FirstCSharp.AssemblyInfoInputs.cache
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\FirstCSharp\obj\Debug\netcoreapp2.2\FirstCSharp.AssemblyInfo.cs
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\FirstCSharp\obj\Debug\netcoreapp2.2\FirstCSharp.dll
+C:\Users\henry\OneDrive\Documents\Coding Practice\C#\fundamentals\FirstCSharp\obj\Debug\netcoreapp2.2\FirstCSharp.pdb
