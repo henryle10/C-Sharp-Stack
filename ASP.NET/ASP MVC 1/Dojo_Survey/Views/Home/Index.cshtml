@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="border: 2px solid black; height: 500px !important; margin-top: 50px; width: 50%;">
+        <form action="/register" method="POST">
+            <div style="text-align: center; font-size: 25px; padding: 30px;">
+                Your Name: <input  class="form-group" style="margin-left: 100px;" type="text" name="FirstName" id="">
+                <div class="form-group" style="vertical-align: top;">
+                    Dojo Location:<select style="margin-left: 149px;" name="location" id="">
+                        <option>Choose a location</option>
+                        <option value="oc">Orange County</option>
+                        <option value="boise">Boise</option>
+                        <option value="seattle">Seattle</option>
+                    </select>
+                </div>
+                <div class="form-group" style="vertical-align: top;">
+                    Favorite Language:<select style="margin-left: 100px;" name="language" id="">
+                        <option>Choose a Language</option>
+                        <option value="python">Python</option>
+                        <option value="csharp">C#</option>
+                        <option value="mern">Mern</option>
+                    </select>
+                </div>
+
+                <p>Comment (optional):</p>
+                <textarea name="comment" id="" cols="60" rows="3"></textarea>
+            </div>
+            <button class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

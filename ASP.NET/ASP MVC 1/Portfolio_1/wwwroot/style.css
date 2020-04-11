@@ -1,0 +1,30 @@
+li{
+    text-align: center;
+    list-style-type: none;
+    font-size: large;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.listBox{
+    border: 2px solid black;
+    margin: auto;
+    padding: 10px;
+    height: 500px; 
+    width: 75%;
+    overflow-x: hidden; 
+    overflow-x: auto; 
+    text-align:justify; 
+}
+
+.smallImg{
+    height: 100px;
+    width: 100px;
+    vertical-align: top;
+}

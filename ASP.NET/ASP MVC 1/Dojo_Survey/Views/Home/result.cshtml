@@ -1,0 +1,29 @@
+@model User;
+@* @model Dojo_Survey.Models.User; *@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" style="border: 2px solid black; height: 500px !important; margin-top: 50px; width: 50%;">
+        <div style="padding: 20px;">
+            <h3 style="text-align: left;">Submitted Info</h3>
+        </div>
+        <div style="padding: 20px;">
+            <h4>Name: @Model.FirstName</h4>
+            <h4>Dojo Location: @Model.Location</h4>
+            <h4>Favorite Language: @Model.Language</h4>
+            <h4>Comment: @Model.Comment</h4>
+        </div>
+        <div style="text-align: right; margin-top: 100px">
+            <a class="btn btn-primary" href="/">Go Back</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@model int[];
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>Here are some numbers</h3>
+    <div style="border: 2px solid black; width: 25%; padding: 20px">
+        @foreach (var numbs in Model)
+        {
+            <p>@numbs</p>
+        }
+    </div>
+</body>
+</html>

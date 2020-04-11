@@ -1,0 +1,19 @@
+@model string[]
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Here are some Users</h2>
+    <div style="border: 2px solid black; width: 25%; padding: 20px">
+        @foreach(var name in Model)
+        {
+            <p>@name</p>
+        }
+    </div>
+</body>
+</html>

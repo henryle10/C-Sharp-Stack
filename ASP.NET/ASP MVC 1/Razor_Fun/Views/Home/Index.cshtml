@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Here are some delicious foods!</h1>
+    @{
+        string[] foods = new string[]
+        {
+            "Apple Pie","Burritos","Clams Casino","Donuts"
+        };
+    }
+    <ul>
+        @foreach (string food in foods)
+        {
+        for (int i = 0; i < food.Length; i++)
+        {
+        char alphabet = food[0];
+        if(alphabet == 'C')
+        {<p style="color: red;">@food</p>}
+        else
+        {
+        <li style="list-style-type: none;">
+            <p>@food</p>
+        </li>
+        }
+        break;
+        }
+        }
+    </ul>
+</body>
+</html>
