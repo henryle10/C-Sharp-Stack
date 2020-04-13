@@ -1,0 +1,53 @@
+﻿@model User;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form style="height: 450px;" asp-action="Create" asp-controller="Home" method="post">
+            <div class="form-group">
+                <span asp-validation-for="FirstName"></span>
+                <label asp-for="FirstName"></label>
+                <input class="form-control" asp-for="FirstName">
+            </div>
+
+            <div class="form-group">
+                <span asp-validation-for="LastName"></span>
+                <label asp-for="LastName"></label>
+                <input class="form-control" asp-for="LastName">
+            </div>
+
+            <div class="form-group">
+                <span asp-validation-for="Age"></span>
+                <label asp-for="Age"></label>
+                <input class="form-control" asp-for="Age">
+            </div>
+
+            <div class="form-group">
+                <span asp-validation-for="Email"></span>
+                <label asp-for="Email"></label>
+                <input class="form-control" asp-for="Email">
+            </div>
+
+            <div class="form-group">
+                <span asp-validation-for="Password"></span>
+                <label asp-for="Password"></label>
+                <input class="form-control" asp-for="Password">
+            </div>
+
+            <input class="btn btn-primary" value="Add User" type="submit">    
+
+        </form>
+    </div>
+</body>
+</html>

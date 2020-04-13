@@ -21,7 +21,14 @@ namespace Dojo_Survey.Controllers
         [HttpPost("/register")]
         public RedirectToActionResult Register(User newUser)
         {
-            return RedirectToAction("result", newUser);
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("result", newUser);
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
         }
     }
 }

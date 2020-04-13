@@ -25,7 +25,6 @@ namespace Time_Display
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseMvc();
         }
     }

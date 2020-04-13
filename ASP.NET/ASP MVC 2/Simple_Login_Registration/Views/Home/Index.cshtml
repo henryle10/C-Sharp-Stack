@@ -1,0 +1,76 @@
+﻿@model IndexViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Register</h2>
+                <form action="/create/user" method="post">
+                    <div class="form-group">
+                        <label asp-for="NewUser.FirstName"></label>
+                        <input class="form-control" asp-for="NewUser.FirstName">
+                        <span style="color: red;" asp-validation-for="NewUser.FirstName"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="NewUser.LastName"></label>
+                        <input class="form-control" asp-for="NewUser.LastName">
+                        <span style="color: red;" asp-validation-for="NewUser.LastName"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="NewUser.Email"></label>
+                        <input class="form-control" asp-for="NewUser.Email">
+                        <span style="color: red;" asp-validation-for="NewUser.Email"></span> 
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="NewUser.Password"></label>
+                        <input class="form-control" asp-for="NewUser.Password">
+                        <span style="color: red;" asp-validation-for="NewUser.Password"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="NewUser.cpassword">Confirm Password</label>
+                        <input class="form-control" asp-for="NewUser.cpassword">
+                        <span style="color: red;" asp-validation-for="NewUser.cpassword"></span>
+                    </div>
+
+                    <input class="btn btn-primary" value="Add User" type="submit">    
+                </form>
+            </div>
+
+            <div class="col">
+                <h2>Login</h2>
+                <form action="/login/user" method="post">
+                    <div class="form-group">
+                        <label asp-for="NewLogin.Email">Email</label>
+                        <input class="form-control" asp-for="NewLogin.Email">
+                        <span style="color: red;" asp-validation-for="NewLogin.Email"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="NewLogin.Password"></label>
+                        <input class="form-control" asp-for="NewLogin.Password">
+                        <span style="color: red;" asp-validation-for="NewLogin.Password"></span>
+                    </div>
+
+                    <input class="btn btn-primary" value="Login" type="submit">    
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

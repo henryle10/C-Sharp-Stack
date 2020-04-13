@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\ASP.NET\\Time_Display\\Time_Display.csproj",
+  "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\ASP.NET\\ASP MVC 1\\Time_Display\\Time_Display.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,7 +2961,7 @@
   "RootNamespace": "Time_Display",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\ASP.NET\\Time_Display\\Views\\Home\\index.cshtml",
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\ASP.NET\\ASP MVC 1\\Time_Display\\Views\\Home\\index.cshtml",
       "TargetPath": "Views\\Home\\index.cshtml",
       "FileKind": "mvc"
     }
