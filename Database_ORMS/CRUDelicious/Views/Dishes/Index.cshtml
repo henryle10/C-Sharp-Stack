@@ -1,0 +1,26 @@
+@model List<Dish>;
+
+<h1 class="text-center" style="margin-top: 55px;">
+    Welcome to CRUDelicious
+</h1>
+
+
+<div class="container" style="margin-top: 50px;">
+    <div class="row">
+        <div class="col-sm-6">
+            <h3>Check out some recent dishes!</h3>
+            <hr style="border: 1px solid black;">
+            @foreach (Dish dish in Model)
+            {
+            <div style="font-size: large;">
+                <a asp-action="Details" asp-controller="Dishes" asp-route-dishId='@dish.DishId'>@dish.Name</a> by @dish.Chef
+            </div>
+            }
+        </div>
+        <div class="col-sm-6">
+            <div class="col-sm-6, text-center" style="font-size: large;">
+                <a asp-action="new" asp-controller="Dishes" >Add a Dish</a>
+            </div>
+        </div>
+    </div>
+</div>

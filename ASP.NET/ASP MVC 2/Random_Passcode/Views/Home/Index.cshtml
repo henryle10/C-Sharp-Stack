@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div style="text-align: center;">
+            <h4 style="margin-top: 25px;"><b>Random passcode (passcode #@ViewBag.count)</b></h4>
+            <div style="border: 2px solid black; margin-top: 25px;">
+                <h2>@ViewBag.password</h2>
+            </div>
+            <form style="margin-top: 25px;" action="">
+                <input id="generate" type="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

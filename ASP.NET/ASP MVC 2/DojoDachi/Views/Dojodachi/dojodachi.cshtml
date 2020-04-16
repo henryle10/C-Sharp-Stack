@@ -1,0 +1,30 @@
+@model DojodachiModels
+
+<div class="text-center">
+    <div style="display: inline-block; width:1000px; margin: 20px">
+        <div style="display: inline-block; margin: 25px">
+            <h5>Fullness: @Model.Fullness</h5>
+        </div>
+        <div style="display: inline-block; margin: 25px">
+            <h5>Happiness: @Model.Happiness</h5>
+        </div>
+        <div style="display: inline-block; margin: 25px">
+            <h5>Meals: @Model.Meal</h5>
+        </div>
+        <div style="display: inline-block; margin: 25px">
+            <h5>Energy: @Model.Energy</h5>
+        </div>
+    </div>
+    <div style="border: 1px solid black; height: 450px">
+        <div style="margin: auto; margin-top: 70px;" class="w-25">
+            <img id="images" src="@ViewBag.image">
+            <p class="prompt text-center">@ViewBag.Message</p>
+        </div>
+    </div>
+    <div style="margin: 20px;">
+        <partial name="FeedPartial"/> 
+        <partial name="PlayPartial"/>
+        <partial name="WorkPartial"/>
+        <partial name="SleepPartial"/>
+    </div>
+</div>

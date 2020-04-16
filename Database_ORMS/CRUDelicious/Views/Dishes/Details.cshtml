@@ -1,0 +1,27 @@
+@model Dish;
+
+<div style="margin-top: 50px">
+    <a style="text-align: left;" href="/">Home</a>
+</div>
+
+<div class="text-center" >
+    <h1 style="margin-top: 55px; font-weight: bold;">
+        @Model.Name
+    </h1>
+    <h3>@Model.Chef</h3>
+</div>
+<hr>
+<p class="text-center">@Model.Description</p>
+<br>
+<p style="font-weight: bold;">Calories: @Model.Calories</p>
+<p style="font-weight: bold;">Tastiness: @Model.Tastiness</p>
+<br>
+<br>
+<div class="row" style="text-align: center;">
+    <div class="col-sm-6">
+        <a class="btn btn-danger" href="/Dish/@Model.DishId/Delete">Delete</a>
+    </div>
+    <div class="col-sm-6">
+        <a class="btn btn-warning" asp-action="Edit" asp-controller="Dishes" asp-route-dishId='@Model.DishId'>Edit</a>
+    </div>
+</div>

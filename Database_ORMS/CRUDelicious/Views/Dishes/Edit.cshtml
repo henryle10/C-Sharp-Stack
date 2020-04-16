@@ -1,0 +1,51 @@
+@model Dish;
+
+<div style="margin-top: 50px">
+    <a style="text-align: left;" href="/">Home</a>
+</div>
+
+<div class="text-center" >
+    <h1 style="margin-top: 55px; font-weight: bold;">
+        @Model.Name
+    </h1>
+</div>
+
+<div class="container">
+    <div class="row" style="margin-top: 50px;">
+        <form asp-action="Update" asp-controller="Dishes" asp-route-dishId='@Model.DishId'>
+            <div class="col-sm-4">  
+                <label asp-for="Chef"></label>
+                <span class="text-danger font-weight-bold" asp-validation-for="Chef"></span>
+                <input class="form-control" asp-for="Chef">
+                <br>
+                <label asp-for="Name"></label>
+                <span class="text-danger font-weight-bold" asp-validation-for="Name"></span>
+                <input class="form-control" asp-for="Name">
+                <br>
+                <label asp-for="Calories"></label>
+                <span class="text-danger font-weight-bold" asp-validation-for="Calories"></span>
+                <input class="form-control" asp-for="Calories">
+            </div>
+
+            <div class="col-sm-4">  
+                <label asp-for="Tastiness"></label>
+                <span class="text-danger font-weight-bold" asp-validation-for="Tastiness"></span>
+                <select asp-for="Tastiness" class="form-control" name="Tastiness">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <div class="col-sm-4">  
+                <label asp-for="Description"></label>
+                <span class="text-danger font-weight-bold" asp-validation-for="Description"></span>
+                <textarea asp-for="Description" class="form-control" name="Description" id="" cols="30" rows="10">@Model.Description</textarea>
+                <div style="text-align: right; margin-top: 20px">
+                    <button class="btn btn-success" type="Save">Edit Dish</button>
+                </div>
+            </div>
+        </form>
+    </div>
