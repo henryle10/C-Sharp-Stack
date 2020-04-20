@@ -1,0 +1,34 @@
+@model List<Dish>;
+<nav class="text-center">
+    <div style="display: inline-block;">
+        <h2><a asp-controller="Home" asp-action="Index">Chefs</a>| Dishes</h2>
+    </div>
+    <div class="text-right">
+        <a href="/dishes/new">Add a Dish</a>
+    </div>
+</nav>
+<h3>Yum, take a look at our tasty dishes!</h3>
+<hr style="border: 1px solid black;">
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Chef</th>
+                <th>Tastiness</th>
+                <th>Calories</th>
+            </tr>
+        </thead>
+        @foreach (var dish in Model)
+        {
+        <tbody>
+            <tr>
+                <td>@dish.Name</td>
+                <td>@dish.Creator.FirstName</td>
+                <td>@dish.Tastiness</td>
+                <td>@dish.Calories</td>
+            </tr>
+        </tbody>
+        }
+    </table>
+</div>
