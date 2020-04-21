@@ -32,7 +32,7 @@
                 <select asp-for="ChefId" class="form-control" name="ChefId">
                     @foreach (var chef in ViewBag.Chefs)
                     {
-                        <option value="@chef.ChefId">@chef.FirstName</option>
+                        <option value="@chef.ChefId">@chef.FirstName @chef.LastName</option>
                         
                     }
                 </select><br>

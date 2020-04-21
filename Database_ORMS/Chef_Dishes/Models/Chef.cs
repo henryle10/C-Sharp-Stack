@@ -39,9 +39,14 @@ namespace Chef_Dishes.Models
         {
             DateTime birthday = Convert.ToDateTime(value);
             DateTime today = DateTime.Now;
+            var age = today.Year - birthday.Year;
             if (birthday > today)
             {
                 return new ValidationResult("Not a valid birthday");
+            }
+            else if (age < 18)
+            {
+                return new ValidationResult("Must be at least 18 years old");
             }
             return ValidationResult.Success;
         }

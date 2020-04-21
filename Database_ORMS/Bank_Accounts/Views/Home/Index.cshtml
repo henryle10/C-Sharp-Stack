@@ -1,0 +1,56 @@
+﻿@model User;
+
+<h2 style="margin-top: 50px; padding-bottom: 20px">Register</h2>
+<div>
+    <form asp-action="Register" asp-controller="Home">
+        <div class="form-group">    
+            <label asp-for="FirstName"></label>
+            <span
+            class="text-danger font-weight-bold"
+            asp-validation-for="FirstName"
+            ></span>
+            <input class="form-control" asp-for="FirstName"/>
+        </div>
+
+        <div class="form-group">    
+            <label asp-for="LastName"></label>
+            <span
+            class="text-danger font-weight-bold"
+            asp-validation-for="LastName"
+            ></span>
+            <input class="form-control" asp-for="LastName"/>
+        </div>
+
+        <div class="form-group">    
+            <label asp-for="Email"></label>
+            <span
+            class="text-danger font-weight-bold"
+            asp-validation-for="Email"
+            ></span>
+            <input class="form-control" asp-for="Email"/>
+        </div>
+
+        <div class="form-group">    
+            <label asp-for="Password"></label>
+            <span
+            class="text-danger font-weight-bold"
+            asp-validation-for="Password"
+            ></span>
+            <input class="form-control" asp-for="Password"/>
+        </div>
+
+        <div class="form-group">    
+            <label asp-for="PasswordConfirm"></label>
+            <span
+            class="text-danger font-weight-bold"
+            asp-validation-for="PasswordConfirm"
+            ></span>
+            <input class="form-control" asp-for="PasswordConfirm"/>
+            <div style="margin-top: 20px">
+                <a asp-action="login" asp-controller="Home">Already Registered?</a>
+            </div>
+        </div>
+
+        <button class="btn btn-success" type="submit">Submit</button>
+    </form>
+</div>

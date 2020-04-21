@@ -1,0 +1,42 @@
+@model Transaction;
+
+<div>
+    <div style="display: inline-block">
+        <h2>Welcome @ViewBag.User.FirstName</h2>
+    </div>
+    <div style="vertical-align: top;">
+        <a asp-controller="Home" asp-action="Logout">Logout</a>
+    </div>
+</div>
+
+<div class="text-right">
+    <h4>Current Balance: <span style="border: 1px solid black; padding: 7px">$@ViewBag.User.Balance</span></h4>
+</div>
+
+
+<h4>Deposit/Withdraw: 
+    <form style="display: inline;" asp-action="Transactions" asp-controller="Home">
+        <label asp-for="Amount"></label>
+        <input type="number" asp-for="Amount"/>
+        <span class="text-danger font-weight-bold" asp-validation-for="Amount"></span>
+        <button class="btn btn-primary">Submit</button>
+    </form>
+</h4> 
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Amount</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var trans in @ViewBag.User.Transactions)
+        {
+        <tr>
+            <td>@trans.Amount.ToString("0.00")</td>
+            <td>@trans.CreatedAt</td>
+        </tr>
+        }
+    </tbody>
+</table>

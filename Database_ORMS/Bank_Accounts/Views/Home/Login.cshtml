@@ -1,0 +1,21 @@
+@model LoginUser;
+
+<h2 style="margin-top: 50px; padding-bottom: 20px">Login</h2>
+<form asp-action="LoginUser" asp-controller="Home">
+    <div class="form-group">
+        <label asp-for="LoginEmail"></label>
+            <span class="text-danger font-weight-bold" asp-validation-for="LoginEmail"></span>
+            <input asp-for="LoginEmail" class="form-control">
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LoginPassword"></label>
+            <span class="text-danger font-weight-bold" asp-validation-for="LoginPassword"></span>
+            <input asp-for="LoginPassword" value="asdfasdf" class="form-control">
+            <div style="margin-top: 20px">
+                <a href="/">Need to Registered?</a>
+            </div>
+    </div>
+
+    <button class="btn btn-success">Submit</button>
+</form>
