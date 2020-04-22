@@ -1,0 +1,30 @@
+@model Association;
+
+<h1 class="text-center mt-20">@ViewBag.selectedProd.Name</h1>
+
+<div class="row">
+    <div class="col-sm-6">
+        <h4 class="text-center">Categories:</h4><br>
+        @foreach (var cate in @ViewBag.selectedProd.Associations)
+        {
+        <ul>
+            <li>@cate.AssociationCategories.Name</li>
+        </ul>
+        }
+    </div>
+    <div class="col-sm-6">
+        <h4>Add Categories:</h4><br>
+        <form asp-action="AddCategory" asp-controller="Home" method="POST">
+            <span class="text-danger font-weight-bold" asp-validation-for="CategoryId"></span>
+            <select class="form-control" asp-for="CategoryId">
+                <option value="" disabled="disabled">Choose a Category</option>
+                @foreach (var cate in @ViewBag.categories)
+                {
+                <option value="@cate.CategoryId">@cate.Name</option>
+                }
+            </select>
+            <input asp-for= "ProductId" type="hidden" value="@ViewBag.selectedProd.ProductId">
+            <button style="margin-top: 20px;" class="btn btn-success">Add Category</button>
+        </form>
+    </div>
+</div>

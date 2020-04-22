@@ -1,0 +1,30 @@
+@model Category;
+
+<div class="d-flex justify-content-center">
+    <ul class="nav">
+        <li class="nav-item border h2">
+            <a asp-controller="Home" asp-action="Index" class="nav-link">Products</a>
+        </li>
+        <li class="nav-item border h2">
+            <p class="nav-link">| Categories</p>
+        </li>
+    </ul>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <h2 class="text-center">New Category</h2>
+        <hr style="border: 1px solid black">
+        <partial name="_NewCategory"></partial>
+    </div>
+    <div class="col-sm-6">
+        <h2 class="text-center">Existing Categories</h2>
+        <hr style="border: 1px solid black">
+        @foreach (Category cate in @ViewBag.categories)
+        {
+        <ul>
+            <a asp-controller="Category" asp-action="DisplayCate" asp-route-Id="@cate.CategoryId">@cate.Name</a>
+        </ul>
+        }
+    </div>
+</div>

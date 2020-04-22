@@ -1,0 +1,31 @@
+﻿@model Product;
+
+<div class="d-flex justify-content-center">
+    <ul class="nav">
+        <li class="nav-item border h2">
+            <p class="nav-link">Product |</p>
+        </li>
+        <li class="nav-item border h2">
+            <a asp-action="Categories" asp-controller="Category" class="nav-link">Categories</a>
+        </li>
+    </ul>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+        <h2 class="text-center">New Product</h2>
+        <hr style="border: 1px solid black">
+        <partial name="_NewProduct"></partial>
+    </div>
+    <div class="col-sm-6">
+        <h2 class="text-center">Existing Products</h2>
+        <hr style="border: 1px solid black">
+        @foreach (Product prod in @ViewBag.Products)
+        {
+        <ul>
+            <a asp-controller="Home" asp-action="DisplayProd" asp-route-Id="@prod.ProductId">@prod.Name</a>
+        </ul>
+        }
+    </div>
+</div>
+
+
