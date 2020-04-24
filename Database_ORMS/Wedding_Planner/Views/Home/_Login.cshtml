@@ -1,0 +1,33 @@
+@model LoginUser;
+
+<form asp-action="LoginUser" asp-controller="Home">
+    <div class="row form-group">
+        <div class="col-sm-6">
+            <label asp-for="LoginEmail"></label>
+            <span
+            class="text-danger font-weight-bold"
+            asp-validation-for="LoginEmail"
+            ></span>
+        </div>
+        <div class="col-sm-6">
+            <input asp-for="LoginEmail" class="form-control"/>
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col-sm-6">
+            <label asp-for="LoginPassword"></label>
+            <span
+            class="text-danger font-weight-bold"
+            asp-validation-for="LoginPassword"
+            ></span>
+        </div>
+        <div class="col-sm-6">
+            <input value="asdfasdf" asp-for="LoginPassword" class="form-control"/>
+        </div>
+    </div>
+    <br>
+    <div class="text-right">
+        <button class="btn btn-success">Sign in</button>    
+    </div>
+</form>

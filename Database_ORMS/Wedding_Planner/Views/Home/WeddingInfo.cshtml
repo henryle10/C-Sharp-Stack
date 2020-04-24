@@ -1,0 +1,21 @@
+@model Wedding;
+
+<div class="row">
+    <div class="col-md-9">
+        <h2>@Model.Groom and @Model.Bride's Wedding</h2><br>
+    </div>
+    <div class="col-md-3">
+        <a class="btn btn-info" asp-action="Dashboard" asp-controller="Home">Dashboard</a>
+        <a class="btn btn-danger" asp-action="Logout" asp-controller="Home">Logout</a>
+    </div>
+</div>
+<h3>Date:@Model.Date</h3><br>
+<div>
+    <h4>Guest:</h4><br>
+    @foreach (var p in @Model.ListPeople)
+    {
+    <ul>
+        <h4>@p.Attendee.FirstName @p.Attendee.LastName</h4>
+    </ul>
+    }
+</div>

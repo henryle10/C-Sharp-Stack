@@ -1,0 +1,70 @@
+@model Wedding;
+
+<div class="row">
+    <div class="col-md-9">
+        <h2>Plan Your Wedding</h2><br>
+    </div>
+    <div class="col-md-3">
+        <a class="btn btn-info" asp-action="Dashboard" asp-controller="Home">Dashboard</a>
+        <a class="btn btn-danger" asp-action="Logout" asp-controller="Home">Logout</a>
+    </div>
+</div>
+<div class="col-md-6">
+    <form asp-action="CreateWedding" asp-controller="Home">
+        <div class="row form-group">
+            <div class="col-sm-6">
+                <label asp-for="Groom">Groom:</label>
+                <span
+                class="text-danger font-weight-bold"
+                asp-validation-for="Groom"
+                ></span>
+            </div>
+            <div class="col-sm-6">
+                <input asp-for="Groom" class="form-control"/>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-sm-6">
+                <label asp-for="Bride">Bride:</label>
+                <span
+                class="text-danger font-weight-bold"
+                asp-validation-for="Bride"
+                ></span>
+            </div>
+            <div class="col-sm-6">
+                <input asp-for="Bride" class="form-control"/>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-sm-6">
+                <label asp-for="Date">Date:</label>
+                <span
+                class="text-danger font-weight-bold"
+                asp-validation-for="Date"
+                ></span>
+            </div>
+            <div class="col-sm-6">
+                <input asp-for="Date" class="form-control"/>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-sm-6">
+                <label asp-for="Address">Address:</label>
+                <span
+                class="text-danger font-weight-bold"
+                asp-validation-for="Address"
+                ></span>
+            </div>
+            <div class="col-sm-6">
+                <input asp-for="Address" class="form-control"/>
+            </div>
+        </div>
+        <br>
+        <div>
+            <button class="btn btn-success">Create</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,75 @@
+@model User;
+
+<form asp-controller="Home" asp-action="Register" method="POST">
+    <div class="row form-group">
+        <div class="col-sm-6">
+            <label asp-for="FirstName"></label>
+            <span
+            class="text-danger font-weight-bold"
+            asp-validation-for="FirstName"
+            ></span>
+        </div>
+        <div class="col-sm-6">
+            <input asp-for="FirstName" class="form-control"/>
+        </div>
+    </div>
+
+    <div class="row form-group">
+        <div class="col-sm-6">
+            <label asp-for="LastName"></label>
+            <span
+            class="text-danger font-weight-bold"
+            asp-validation-for="LastName"
+            ></span>
+        </div>
+        <div class="col-sm-6">
+            <input asp-for="LastName" class="form-control"/>
+        </div>
+    </div>
+
+    
+    <div class="row form-group">
+        <div class="col-sm-6">
+            <label asp-for="Email"></label>
+            <span
+            class="text-danger font-weight-bold"
+            asp-validation-for="Email"
+            ></span>
+        </div>
+        <div class="col-sm-6">
+            <input asp-for="Email" class="form-control"/>
+        </div>
+    </div>
+
+    
+    <div class="row form-group">
+        <div class="col-sm-6">
+            <label asp-for="Password"></label>
+            <span
+            class="text-danger font-weight-bold"
+            asp-validation-for="Password"
+            ></span>
+        </div>
+        <div class="col-sm-6">
+            <input asp-for="Password" class="form-control"/>
+        </div>
+    </div>
+
+    
+    <div class="row form-group">
+        <div class="col-sm-6">
+            <label asp-for="PasswordConfirm"></label>
+            <span
+            class="text-danger font-weight-bold"
+            asp-validation-for="PasswordConfirm"
+            ></span>
+        </div>
+        <div class="col-sm-6">
+            <input asp-for="PasswordConfirm" class="form-control"/>
+        </div>
+    </div>
+    <br>
+    <div class="text-right">
+        <button class="btn btn-success text-right">Register</button>
+    </div>
+</form>
