@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/RocketShip.csproj",
+  "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\RocketShip.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,62 +2961,62 @@
   "RootNamespace": "RocketShip",
   "Documents": [
     {
-      "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/Views/Home/Info.cshtml",
-      "TargetPath": "Views\\Home\\Info.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/Views/Shared/_Layout.cshtml",
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\Views\\Home\\Info.cshtml",
+      "TargetPath": "Views\\Home\\Info.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/Views/Shared/_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/Views/Home/Dashboard.cshtml",
-      "TargetPath": "Views\\Home\\Dashboard.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/Views/Home/_NewPlayer.cshtml",
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\Views\\Home\\_NewPlayer.cshtml",
       "TargetPath": "Views\\Home\\_NewPlayer.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/Views/Home/_NewGame.cshtml",
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\Views\\Home\\Dashboard.cshtml",
+      "TargetPath": "Views\\Home\\Dashboard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\Views\\Home\\_NewGame.cshtml",
       "TargetPath": "Views\\Home\\_NewGame.cshtml",
       "FileKind": "mvc"
     }

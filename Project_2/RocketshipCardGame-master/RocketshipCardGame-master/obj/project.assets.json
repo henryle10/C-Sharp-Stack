@@ -12149,23 +12149,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/JustinsMacbook/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\henry\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/RocketShip.csproj",
+      "projectUniqueName": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\RocketShip.csproj",
       "projectName": "RocketShip",
-      "projectPath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/RocketShip.csproj",
-      "packagesPath": "/Users/JustinsMacbook/.nuget/packages/",
-      "outputPath": "/Users/JustinsMacbook/Documents/code/side_projects/RocketShip/obj/",
+      "projectPath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\RocketShip.csproj",
+      "packagesPath": "C:\\Users\\henry\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\henry\\OneDrive\\Documents\\Coding Practice\\C#\\Project_2\\RocketshipCardGame-master\\RocketshipCardGame-master\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/JustinsMacbook/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\henry\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
