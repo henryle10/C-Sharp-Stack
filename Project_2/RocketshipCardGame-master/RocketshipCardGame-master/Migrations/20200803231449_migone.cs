@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace RocketShip.Migrations
 {
-    public partial class RSBtn : Migration
+    public partial class migone : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

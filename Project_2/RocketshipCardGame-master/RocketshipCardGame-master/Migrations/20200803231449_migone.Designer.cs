@@ -9,8 +9,8 @@ using RocketShip.Models;
 namespace RocketShip.Migrations
 {
     [DbContext(typeof(RSContext))]
-    [Migration("20200501201233_RSBtn")]
-    partial class RSBtn
+    [Migration("20200803231449_migone")]
+    partial class migone
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
